@@ -1,0 +1,34 @@
+{
+  "name": "maxbeckers/google-actions-php",
+  "type": "library",
+  "description": "This library is a helper for google actions with php.",
+  "keywords": [
+    "google",
+    "actions",
+    "php"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/maxbeckers/google-actions-php/issues",
+    "source": "https://github.com/maxbeckers/google-actions-php"
+  },
+  "authors": [
+    {
+      "name": "Maximilian Beckers",
+      "email": "beckers.maximilian@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MaxBeckers\\GoogleActions\\": "src/"
+    }
+  }
+}
