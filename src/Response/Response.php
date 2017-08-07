@@ -7,4 +7,38 @@ namespace MaxBeckers\GoogleActions\Response;
  */
 class Response
 {
+    /**
+     * @var string|null
+     */
+    public $conversationToken;
+
+    /**
+     * @var bool
+     */
+    public $expectUserResponse = false;
+
+    /**
+     * @var ExpectedInput[]
+     */
+    public $expectedInputs = [];
+
+    /**
+     * @var FinalResponse|null
+     */
+    public $finalResponse;
+
+    /**
+     * @var CustomPushMessage|null
+     */
+    public $customPushMessage;
+
+    /**
+     * @var ResponseMetadata|null
+     */
+    public $responseMetadata;
+
+    /**
+     * @var bool
+     */
+    public $isInSandbox = false;
 }
