@@ -8,7 +8,7 @@ namespace MaxBeckers\GoogleActions\Response;
 class RichResponse
 {
     /**
-     * @var Item|[]
+     * @var Item[]
      */
     public $items = [];
 
