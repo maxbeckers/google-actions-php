@@ -28,7 +28,7 @@ class OrderUpdate
     public $totalPrice;
 
     /**
-     * @var LineItemUpdate|[]
+     * @var LineItemUpdate[]
      */
     public $lineItemUpdates = [];
 
